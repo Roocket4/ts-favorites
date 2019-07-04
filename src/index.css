@@ -1,5 +1,10 @@
+html {
+  font-size: 14px;
+}
+
 body {
   margin: 0;
+  font-size: 10px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -7,7 +12,24 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.episode-layout {
+ display: flex;
+ flex-wrap: wrap;
+ min-width: 100vh;
+}
+
+.episode-box {
+  padding: .5rem;
+}
+
+.header {
+  font-size: 13px;
+  color: lightgreen;
+  display: flex;
+  justify-content: space-between;
+  background: lightskyblue;
+  border-bottom: 4px solid lightgreen;
+  padding: .5rem;
+  position: sticky;
+  top: 0;
 }
